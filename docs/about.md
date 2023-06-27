@@ -1,4 +1,4 @@
-# Welcome to Jordan Lab Docs!
+# Jordan Lab Doc
 
-**Jordan lab at Georgia Tech!**
+**Bioinformatics lab manual for the Jordan Lab at Georgia Tech**
 
