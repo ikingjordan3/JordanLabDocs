@@ -2,6 +2,9 @@ site_name: JordanLabDocs
 site_url: https://jordanlabdocs.readthedocs.io/
 nav:
     - 'About': about.md
-    - 'Ancestry Inference':
-        - 'Continental Ancestry': continental-ancestry.md
+    - 'Continental Ancestry Inference':
+        - 'Introduction': introduction-continental-ancestry.md
+        - 'Workspace Setup': workspace-setup-continental-ancestry.md
+    - 'Polygenic Risk Scores':
+        - 'Colorectal Cancer': colorectal-cancer.md
 theme: readthedocs
