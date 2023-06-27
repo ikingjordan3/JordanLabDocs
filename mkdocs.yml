@@ -1,0 +1,7 @@
+site_name: JordanLabDocs
+site_url: https://jordanlabdocs.readthedocs.io/
+nav:
+    - 'About': about.md
+    - 'Ancestry Inference':
+        - 'Continental Ancestry': continental-ancestry.md
+theme: readthedocs
