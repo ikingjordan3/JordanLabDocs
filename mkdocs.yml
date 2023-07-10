@@ -5,9 +5,9 @@ nav:
     - 'Continental Ancestry Inference':
         - 'Introduction': introduction-continental-ancestry.md
         - 'Workspace Setup': workspace-setup-continental-ancestry.md
-	- 'Datasets': datasets.md
-	- 'Harmonization': harmonization.md
-	- 'PCA': pca.md
+        - 'Datasets': datasets.md
+        - 'Harmonization': harmonization.md
+        - 'PCA': pca.md
     - 'Polygenic Risk Scores':
         - 'Colorectal Cancer': colorectal-cancer.md
 theme: readthedocs
