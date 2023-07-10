@@ -8,6 +8,6 @@ nav:
         - 'Datasets': datasets.md
         - 'Harmonization': harmonization.md
         - 'PCA': pca.md
-    - 'Polygenic Risk Scores':
+    - 'Polygenic Risk Score':
         - 'Colorectal Cancer': colorectal-cancer.md
 theme: readthedocs
