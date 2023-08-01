@@ -11,7 +11,7 @@ unzip PRSice_linux.zip
 To get the required scoring files (Bash)
 ```
 wget https://ftp.ebi.ac.uk/pub/databases/spot/pgs/scores/PGS000785/ScoringFiles/PGS000785.txt.gz
-gunzip PGS000074.txt.gz
+gunzip PGS000785.txt.gz
 ```
 Quality control of the scoring files
 * To remove metadata (Bash)
