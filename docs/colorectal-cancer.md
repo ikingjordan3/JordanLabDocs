@@ -10,25 +10,25 @@ unzip PRSice_linux.zip
 ```
 To get the required scoring files (Bash)
 ```
-wget https://ftp.ebi.ac.uk/pub/databases/spot/pgs/scores/PGS000074/ScoringFiles/PGS000074.txt.gz
+wget https://ftp.ebi.ac.uk/pub/databases/spot/pgs/scores/PGS000785/ScoringFiles/PGS000785.txt.gz
 gunzip PGS000074.txt.gz
 ```
 Quality control of the scoring files
 * To remove metadata (Bash)
 ```
-sed '1,14d' PGS000074.txt > PGS000074.txt`
+sed '1,14d' PGS000785.txt > PGS000785.txt`
 ```
 * To set a default p-value of 0 (R)
 ```
-df1 <- read.table("PGS000074.txt", header=TRUE, sep="\t")
+df1 <- read.table("PGS000785.txt", header=TRUE, sep="\t")
 df1$P <- '0'
-write.table(df1, "PGS000074.txt", quote=FALSE, row.names=FALSE)
+write.table(df1, "PGS000785.txt", quote=FALSE, row.names=FALSE)
 ```
 
 ### Obtaining PRS (Bash)
 ```
 Rscript PRSice/PRSice.R 
---base PGS000074.txt 
+--base PGS000785.txt 
 --target /home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr#_v3,/home/sharedFolder/referenceData/ukb/imputed_genotypes/ukb_imp_chr1_v3.sample 
 --type bgen
 --snp 0 --chr 1 --bp 2 --A1 3 --A2 4 --stat 5 --pvalue 10
@@ -42,7 +42,7 @@ Rscript PRSice/PRSice.R
 --cov /home/vsrinivasan75/cases_controls_new/covariates_white.txt
 --cov-factor SEX 
 --quantile 100 --quant-break 10,20,30,40,50,60,70,80,90,100 --quant-ref 50
---out /ukb_prs/colorectal_cancer/using_prsice/PGS000074/PGS000074_results 
+--out /ukb_prs/colorectal_cancer/using_prsice/PGS000785/PGS000785_results 
 --prsice PRSice/PRSice_linux
 ```
 
