@@ -32,4 +32,10 @@ Here is a script to run a simple PCA:
 
 ### Options
 
+There are several options to fine tune your pca command depending on the data input, more iformation on that here:
 
+https://www.cog-genomics.org/plink/2.0/input
+
+### Plotting
+
+More information to plot PCA results will be in the plotting section
